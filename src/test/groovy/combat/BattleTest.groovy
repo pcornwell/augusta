@@ -29,7 +29,7 @@ class BattleTest
         assertNotNull(iceni)
     }
 
-    @Test
+    @Test 
     void "testSinglePhaseSingleUnitBattle" ()
     {
         Battle mancetter = new Battle ()
