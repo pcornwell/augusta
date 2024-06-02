@@ -32,7 +32,7 @@ class BattleTest
     @Test 
     void "testSinglePhaseSingleUnitBattle" ()
     {
-        Battle mancetter = new Battle ()
+        Battle mancetter = new Battle (name: "Mancetter")
         UnitStack romanArmy = new UnitStack()
         UnitStack iceniArmy = new UnitStack()
         romanArmy.stack << roman

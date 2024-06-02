@@ -5,6 +5,7 @@ import com.augusta.units.UnitStack
 
 class Battle
 {
+    String name
     int phases
 
     def doBattlePhase (UnitStack alpha, UnitStack beta)
